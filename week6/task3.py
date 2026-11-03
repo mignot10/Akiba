@@ -57,3 +57,33 @@ mgr.display_info()
 
 print("\n--- Developer Info ---")
 dev.display_info()
+
+# ==============================================================================
+# ANSWER
+# ==============================================================================
+
+# 1. What is inheritance?
+# Inheritance is an OOP principle that allows a child class to acquire the 
+# attributes and methods of a parent class, promoting code reusability.
+
+# 2. What is the difference between a parent class and a child class?
+# A parent class (base class) is the general class containing shared features, 
+# while a child class (subclass) inherits those features and adds or customizes 
+# its own specific attributes and methods.
+
+# 3. What is method overriding?
+# Method overriding occurs when a child class redefines a method inherited 
+# from its parent class to provide its own specialized behavior.
+
+# 4. What is the purpose of super()?
+# super() gives a child class access to the parent class's methods and properties, 
+# allowing you to reuse parent constructor/method logic without duplicating code.
+
+# 5. What is the difference between single and multiple inheritance?
+# Single inheritance involves a child class inheriting from only ONE parent class, 
+# whereas multiple inheritance involves a child class inheriting from TWO OR MORE 
+# parent classes simultaneously.
+
+# Is single/multiple inheritance concept needed for Question 3?
+# No. Question 3 only uses single inheritance (Manager and Developer each inherit 
+# from a single parent class, Employee), so multiple inheritance was not required.
