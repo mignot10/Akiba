@@ -76,4 +76,8 @@ print("Circle area:", circle.calculate_area())
 # Encapsulation bundles data and methods inside a class and
 # controls access to the object's internal data.
 # It focuses on protecting and managing HOW data is accessed
+<<<<<<< HEAD
 # and modified.
+=======
+# and modified.
+>>>>>>> e285649 (Add Library Management System mini project)
